@@ -7,5 +7,5 @@ app.use('/pages', express.static(path.join(__dirname, 'pages')));
 
 
 app.listen(8080, () => {
-  console.log("Listening on port : 5000");
+  console.log("Listening on port : 8080");
 });
